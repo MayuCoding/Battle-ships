@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/main.css">
+    <title>BattleShips</title>
+</head>
+<body>
+    <h1>Welcome to Battleships!</h1>
+    <h3>Where are the ships?</h3>
+    
+    <div id="board">
+        <div class="row">
+            <div class="column" id="n1"></div>
+            <div class="column" id="n2"></div>
+            <div class="column" id="n3"></div>
+            <div class="column" id="n4"></div>
+            <div class="column" id="n5"></div>
+        </div>
+        <div class="row">
+            <div class="column" id="n6"></div>
+            <div class="column" id="n7"></div>
+            <div class="column" id="n8"></div>
+            <div class="column" id="n9"></div>
+            <div class="column" id="n10"></div>
+        </div>
+        <div class="row">
+            <div class="column" id="n11"></div>
+            <div class="column" id="n12"></div>
+            <div class="column" id="n13"></div>
+            <div class="column" id="n14"></div>
+            <div class="column" id="n15"></div>
+        </div>
+        <div class="row">
+            <div class="column" id="n16"></div>
+            <div class="column" id="n17"></div>
+            <div class="column" id="n18"></div>
+            <div class="column" id="n19"></div>
+            <div class="column" id="n20"></div>
+        </div>
+        <div class="row">
+            <div class="column" id="n21"></div>
+            <div class="column" id="n22"></div>
+            <div class="column" id="n23"></div>
+            <div class="column" id="n24"></div>
+            <div class="column" id="n25"></div>
+        </div>
+    </div>
+    
+    <div id='try'>
+        <h1>Try Again</h1>
+    </div>
+    
+    <div id='success'>
+        <h1>Nice!</h1>
+    </div>
+    
+    <!-- Extension -->
+    <div id='win'>
+        <h1>Winner!</h1>
+    </div>
+    
+    
+    <button id='reset'>RESET</button>
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>
